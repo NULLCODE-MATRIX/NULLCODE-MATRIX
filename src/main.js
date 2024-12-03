@@ -1,3 +1,4 @@
+import './index.css';
 import { router } from './router.js';
 import { renderApp } from './app.js';
 
@@ -6,6 +7,3 @@ router.init();
 
 // Initial render
 renderApp();
-
-// Handle navigation events
-window.addEventListener('popstate', renderApp);
